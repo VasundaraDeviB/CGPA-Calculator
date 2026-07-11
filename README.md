@@ -1,36 +1,47 @@
 # CGPA Calculator
 
 ## Description
-A simple C++ application that calculates a student's CGPA based on grade points and subject credits.
+This is a C++ console application that calculates a student's CGPA based on the grade points and credit hours entered for each subject.
 
 ## Features
 - Enter student name
-- Enter subject names
-- Enter grade points
-- Enter subject credits
-- Input validation
+- Enter multiple subjects
+- Input validation for grade points and credits
 - Calculates total credits
-- Displays CGPA up to 2 decimal places
+- Calculates total grade points
+- Calculates and displays CGPA
+- Displays subject-wise details in a formatted table
 
 ## Technologies Used
 - C++
 - Visual Studio Code
-- g++
+- MSYS2 (g++)
+- Standard Template Library (vector)
 
 ## How to Run
 
-Compile:
+Compile the program:
 
 ```bash
 g++ CGPA_Calculator.cpp -o cgpa
 ```
 
-Run:
+Run the program:
 
 ```bash
 .\cgpa
 ```
 
+## Learning Outcomes
+This project helped me learn:
+- Loops
+- Conditional statements
+- Vectors
+- Strings
+- Formatted output using `iomanip`
+- Input validation
+- CGPA calculation
+
 ## Author
 
-Vasundara Devi B
+**Vasundara Devi B**
